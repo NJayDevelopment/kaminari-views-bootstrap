@@ -25,10 +25,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install kaminari-views-bootstrap
-
 ## Usage
 
 After installation, paginate as you normally would but pass in a theme:
