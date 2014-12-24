@@ -1,4 +1,7 @@
 # Kaminari::Views::Bootstrap
+<p align="center">
+  <img src="http://i.imgur.com/1zuWncL.png" alt="Example of kaminari-views-bootstrap gem in action"/>
+</p>
 
 Kaminari Views Bootstrap is a quick theme for Kaminari's awesome pagination features.
 Kaminari does not paginate the same way Bootstrap formats it, this gem fixes that for you.
