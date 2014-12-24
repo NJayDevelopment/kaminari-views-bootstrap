@@ -3,6 +3,9 @@
 Kaminari Views Bootstrap is a quick theme for Kaminari's awesome pagination features.
 Kaminari does not paginate the same way Bootstrap formats it, this gem fixes that for you.
 
+Note: this gem removes next and previous button but leaves the first an last. This was to fit the needs of an NJay product, and this is a direct refactor of the code from there.
+If you require these features, please make a fork (see Contributing) and then modify the _paginator page to add the next_page_tag and previous_page_tag. 
+
 ## Installation
 Make sure you have Kaminari in your application's Gemfile:
 ```ruby
