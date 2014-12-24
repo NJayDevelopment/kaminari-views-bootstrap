@@ -4,6 +4,10 @@ Kaminari Views Bootstrap is a quick theme for Kaminari's awesome pagination feat
 Kaminari does not paginate the same way Bootstrap formats it, this gem fixes that for you.
 
 ## Installation
+Make sure you have Kaminari in your application's Gemfile:
+```ruby
+gem 'kaminari'
+```
 
 Add this line to your application's Gemfile:
 
@@ -21,7 +25,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO
+After installation, paginate as you normally would but pass in a theme:
+```ruby
+= paginate @users, :theme => 'tb3'
+```
 
 ## Contributing
 
