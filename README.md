@@ -18,7 +18,7 @@ gem 'kaminari'
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kaminari-views-bootstrap'
+gem 'kaminari-views-bootstrap', :git => "https://github.com/NJayDevelopment/kaminari-views-bootstrap"
 ```
 
 And then execute:
