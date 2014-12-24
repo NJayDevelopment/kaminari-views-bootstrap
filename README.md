@@ -1,4 +1,7 @@
 # Kaminari::Views::Bootstrap
+<p align="center">
+  <img src="http://i.imgur.com/1zuWncL.png" alt="Example of kaminari-views-bootstrap gem in action"/>
+</p>
 
 Kaminari Views Bootstrap is a quick theme for Kaminari's awesome pagination features.
 Kaminari does not paginate the same way Bootstrap formats it, this gem fixes that for you.
@@ -15,16 +18,12 @@ gem 'kaminari'
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kaminari-views-bootstrap'
+gem 'kaminari-views-bootstrap', :git => "https://github.com/NJayDevelopment/kaminari-views-bootstrap"
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install kaminari-views-bootstrap
 
 ## Usage
 
