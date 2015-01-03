@@ -1,3 +1,0 @@
-  %li{:class => 'active' if page.current?}
-    = link_to (page.current? ? 'javascript:void(0)' : url), opts = {:remote => remote, :rel => page.next? ? 'next' : page.prev? ? 'prev' : nil} do
-      %span{"aria-hidden" => "true"}= page
