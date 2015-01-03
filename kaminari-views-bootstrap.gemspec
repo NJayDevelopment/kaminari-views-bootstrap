@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "kaminari-views-bootstrap"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.2"
   spec.authors       = ["skipperguy12"]
   spec.email         = ["skipperguy12@users.noreply.github.com"]
   spec.summary       = "A quick Bootstrap3 theme for Kaminari pagination"
